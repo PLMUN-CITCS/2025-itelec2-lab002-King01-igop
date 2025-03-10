@@ -4,7 +4,21 @@
 # Simple Calculator ProgramMMMMMMMMM
 
 def main():
-    pass # replace this line with all of your code
+    print("Simple Calculator Program")
+    num1 = int(input("Enter 1st number: "))
+    num2 = int(input("Enter 2nd number: "))
+    
+    # Return the sum of the two numbers
+    print(f"The sum is {num1 + num2}")
+    
+    # Return the difference of the two numbers
+    print(f"The difference is {num1 - num2}")
+    
+    # Return the product of the two numbers
+    print(f"The product is {num1 * num2}")
+    
+    # Return the quotient of the two numbers
+    print(f"The quotient is {(num1 / num2):.2f}")
 
 if __name__ == "__main__":
     main()
